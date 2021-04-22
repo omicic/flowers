@@ -99,6 +99,10 @@ header {
             }
 
         }
+
+        .clearfix {
+            clear: both;
+        }
     }
 
     .head {
@@ -177,10 +181,14 @@ header {
 .josnesto {
     @extend .opis;
 
+    h4 {
+        padding-bottom: 15px;
+    }
+
     p {
-        border: 3px dashed $black;
-        padding: 30px;
-        ;
+        border: 3px dashed $grey;
+        padding: 40px;
+
     }
 }
 
