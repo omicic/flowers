@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans" "san serif";
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+a:hover {
+  color: #c77bab;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/***nav***/
+header {
+  background-image: url(img/header-flowers.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+header nav {
+  padding: 30px 0;
+}
+header nav .logo {
+  float: left;
+  color: #fff;
+  font-size: 2.5rem;
+}
+header nav ul {
+  float: right;
+  text-align: center;
+}
+header nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+header nav ul li a {
+  color: #fff;
+  font-size: 1.7rem;
+}
+header .head {
+  padding-top: 150px;
+  text-align: center;
+}
+header .head h1 {
+  font-size: 4rem;
+  color: #ea91cd;
+}
+header .head p {
+  color: #fff;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header .head .btn {
+  color: black;
+  background: #ea91cd;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transform: uppercase;
+  padding: 10px 30px;
+  border: 0;
+  transition: 0.2s ease;
+}
+header .head .btn:hover {
+  color: #fff;
+}
+
+.opis, .josnesto, .slika .container {
+  text-align: center;
+  padding-bottom: 70px;
+}
+.opis h2, .josnesto h2, .slika .container h2 {
+  padding: 50px 0 15px 0;
+  font-size: 3.2rem;
+}
+.opis h4, .josnesto h4, .slika .container h4 {
+  padding-bottom: 10px;
+  font-size: 1.6rem;
+}
+.opis p, .josnesto p, .slika .container p {
+  padding-bottom: 30px;
+}
+.opis .btn, .josnesto .btn, .slika .container .btn {
+  color: black;
+  background: #ea91cd;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transform: uppercase;
+  padding: 10px 30px;
+  border: 0;
+  transition: 0.2s ease;
+}
+.opis .btn:hover, .josnesto .btn:hover, .slika .container .btn:hover {
+  color: #fff;
+}
+
+.slika {
+  background: #ea91cd;
+  width: 100%;
+}
+.slika .container img {
+  padding-top: 70px;
+  width: 100%;
+  margin: 0 auto;
+}
+.slika .container .btn {
+  background-color: antiquewhite;
+  transition: 0.2s ease;
+}
+.slika .container .btn:hover {
+  background-color: #424242;
+  color: #c77bab;
+}
+
+.josnesto p {
+  border: 3px dashed black;
+  padding: 30px;
+}
+
+footer {
+  background: #424242;
+  padding: 50px 0;
+}
+footer p {
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
